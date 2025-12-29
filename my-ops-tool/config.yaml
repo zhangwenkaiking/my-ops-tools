@@ -1,0 +1,9 @@
+ssh_user: "root"
+master_ip: "172.16.34.245"
+node_ips:
+  - 172.16.34.252
+  - 172.16.34.206
+  - 172.16.34.178
+ansible_playbook_path: "k8s_init.yml"
+# 新增：指定 K8s 版本（注意：CentOS/el7 源的版本格式通常带后缀）.test
+k8s_version: "1.28.2-0"
